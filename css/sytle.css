@@ -1,0 +1,214 @@
+/* for header */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    height:600px;
+    width: 100%;
+}
+
+
+#top_spaceholder{
+    height: 5px;
+    width: 100%;
+}
+header {
+    display: flex;
+    width: 90%;
+    height: 200px;
+    flex-direction: row;
+    flex-basis: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#cnet_logo{
+    width:50%;
+    height: 90%;
+    position: relative;
+    top:-30px;
+}
+
+#class_holder1 {
+    width: 40% ;
+}
+
+#search {
+    width:3%;
+    height: 20%;
+   position: relative;
+   top:-5px;
+
+}
+
+#class_holder2 {
+    width: 1.5% ;
+}
+
+
+#sign_in {
+    width:9%;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    background-color: #b4fd8c;
+    font-size: 14px;
+    line-height: 25px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+
+
+#top_nav { 
+    height: 30px;
+    width: 98%;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    font-size: medium;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-left:4%;
+    margin-right: 5%;
+    margin-bottom: 0px;
+    position: relative;
+    top: -50px;
+}
+
+li {
+    width: 90%;
+    font-size: 16px;
+    font-weight: 700;
+    white-space: nowrap;
+    font-family: sans-serif;
+    color:white;
+}
+
+
+main {
+    margin-top: -10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 370px;
+}
+
+#lbox{
+    width:15%;
+    height:600px;
+    background-color: #fcf95a;
+    border-radius: 0 1rem 1rem 0;
+    padding: 1.5rem 1rem;
+
+}
+
+aside {
+    font-family: momumentgrotesk, sans-serif;
+}
+
+aside > h1 {
+    font-size: 2.625rem;
+    text-transform: uppercase;
+    font-family: stardust, serif;
+    font-stretch: 48%;
+    font-weight: 600;
+    line-height: 5px;;
+}
+aside > h3  {
+    font-size: 16px;
+}
+
+hr{
+    border-top: dotted 1px;
+    color:#c4ab2b;
+}
+
+#lbuttom {
+    height:40px;
+    width:40px;
+    position: relative;
+    top:40px;
+    left: 140px;
+    background-color: #FEFD9F;
+    border: unset;
+    border-radius: 0.5rem;
+    box-shadow: none;
+    padding:0;
+}
+
+#lbuttom:hover{
+    background-color: #020203;
+}
+
+#mbox {
+    width: 44%;
+    
+}
+
+#rbox{
+    width: 30%;
+    padding: 1.5rem;
+    background-color: #ff5d53;
+    border-radius: 0 1rem 0 0 ;
+    font-family: sans-serif;
+}
+
+
+#rbox:hover {
+    background-color: #b4fd8c;
+    color: #020203;
+
+}
+#rbox > h2 {
+    font-size:32px;
+    font-weight: 700;
+}
+
+
+#rbox > p > strong {
+    font-size: 14px;
+}
+footer {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    height:300px;
+    width: 100%;
+}
+
+#bottom {
+    height:300px;
+    width: 71%;
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    margin-left: 23.5%;
+    margin-right: 5%;
+    font-family: sans-serif;
+}
+
+#bottombox1, #bottombox2, #bottombox3, #bottombox4{
+    width: 25%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    padding: 0.05rem;
+} 
+
+#bottombo4 > div {
+    border-bottom-right-radius: 16px;
+}
+
+#bottom  p {
+    font-size: 12px;
+}
+
